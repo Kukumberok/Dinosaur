@@ -128,9 +128,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="DinoGame.cpp" />
     <ClCompile Include="Driver.cpp" />
+    <ClCompile Include="Figure.h" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="Pixel3D.cpp" />
+    <ClCompile Include="ReadFigure.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="DinoGame.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="OwingArray.h" />
+    <ClInclude Include="Pixel3D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
